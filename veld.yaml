@@ -1,25 +1,7 @@
 x-veld:
   code:
-    about:
-      description: ""
-      topics: ""
-
-    inputs:
-      volume: ""
-      file_formats: ""
-      contents: ""
-
-    outputs:
-      volume: ""
-      file_formats: ""
-      contents: ""
-
-    environment:
-      template_var:
-        description: ""
-        type: ""
-        optional: ""
-        default: ""
+    description: "template veld code repo for a juptyer notebook"
+    topics: 
 
 services:
   veld:
@@ -32,6 +14,4 @@ services:
       - ./src:/veld/code/
       - ./volumes/input/:/veld/input/
       - ./volumes/output/:/veld/output/
-    environment:
-      template_var: ""
 
