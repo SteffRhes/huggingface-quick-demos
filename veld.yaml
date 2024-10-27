@@ -1,7 +1,6 @@
 x-veld:
   code:
     description: "template veld code repo for a juptyer notebook"
-    topics: 
 
 services:
   veld:
