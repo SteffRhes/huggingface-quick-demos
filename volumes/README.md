@@ -1,3 +1,32 @@
-These volume folders are for testing and ad-hoc purposes. Should this VELD code repo be used in the
-context of a VELD chain, then it's better to delete these folders on the host and volumes from the
-veld.yaml file, and replace them with proper veld input and output volumes in the VELD chain repo.
+# veld_code__jupyter_notebook_base
+
+This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating a template 
+jupyter notebook setup, mainly used for quick forking.
+
+## requirements
+
+- git
+- docker compose (note: older docker compose versions require running `docker-compose` instead of 
+  `docker compose`)
+
+## how to use
+
+A code veld may be integrated into a chain veld, or used directly by adapting the configuration 
+within its yaml file and using the template folders provided in this repo. Open the respective veld 
+yaml file for more information.
+
+Run a veld with:
+```
+docker compose -f <VELD_NAME>.yaml up
+```
+
+## contained code velds
+
+**[./veld.yaml](./veld.yaml)** 
+
+Launches a jupyter notebook
+
+```
+docker compose -f veld.yaml up
+```
+
