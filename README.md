@@ -1,4 +1,4 @@
-# veld_code__jupyter_notebook_base
+# ![veld chain](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_code__jupyter_notebook_base
 
 This repo contains [code velds](https://zenodo.org/records/13322913) encapsulating a template 
 jupyter notebook setup, mainly used for quick forking.
