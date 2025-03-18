@@ -1,0 +1,10 @@
+services:
+  notebooks:
+    build: .
+    command: jupyter notebook --allow-root --ip='*' --NotebookApp.token='' --NotebookApp.password=''
+    ports:
+      - 8888:8888
+    working_dir: /home/jupyter/
+    volumes:
+      - ./src:/home/jupyter/
+
